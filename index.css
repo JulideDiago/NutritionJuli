@@ -1,0 +1,350 @@
+@font-face {
+    font-family: "Karla-Bold"; 
+    src: url(./assets/Fonts/Karla-Bold.ttf);
+}
+@font-face {
+    font-family: "Karla-Medium";
+    src: url(./assets/Fonts/Karla-Medium.ttf);
+}
+html{
+    min-height: 100%;
+    position: relative;
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.body {
+    background-image: url("./assets/fondo.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    margin:auto;
+    font-family: "Karina-Medium";
+    /* grid
+    display: grid;
+    grid-template-columns: 100%; */
+}
+#logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    left: 0px;
+    right: 100px;
+    top: 40px;
+}
+    h1 {
+    color:rgb(0, 0, 0);
+    font-family: "Karla-Bold", sans-serif;
+    align-items: center;
+    background-image: url("./assets/fruits.jpg");
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: cover;
+    object-fit: scale-down;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    position: relative;
+    top: -50px;
+    left: 80px;
+    font-size: 50px;
+    width: 320px;
+    border-style:solid;
+}
+.redSocial{
+    display: inline-block;
+    position: relative;
+    top:-100px;
+    left: 1200px;
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-left: 5px;
+    margin-right: 5px; 
+}
+.menu {
+    position: relative;
+    bottom: 45px;
+    left: -20px;
+    text-align:center;
+    list-style-type: none;
+}
+.menuLink {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    font-family: "Karla-Medium";
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+    transition: all 3s;
+    
+}
+.menuLink:hover{
+    font-size: 30px;
+    background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+}
+
+/*li:hover {
+    background-color:rgb(25, 29, 22) */
+.menu a {
+    color: orange;
+    text-decoration: none;
+}
+.video {
+    width:"560"; height:"315";
+    position: relative;
+    left: 280px;
+}
+.Title {
+    color:#000000;
+    font-family: "Karla-Bold";
+    font-style:italic;
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-left: 5px;
+    margin-right: 5px; 
+    font-size: 20px;
+    position: relative;
+    bottom:300px;
+    left: 850px;
+    background-color:powderblue;
+    width: 270px;
+    text-decoration: underline;
+
+}
+.infoDescripcion  {
+    font-family: Karla-Medium;
+    font-style:italic;
+    color: rgb(10, 17, 13);
+    position: relative;
+    bottom:200px;
+    left: 600px;
+    border-style:inset;
+    border-color: rgb(64, 70, 62);
+    background-color: powderblue;
+    width: 300px;
+    height: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px; 
+    text-align: center;
+    background-image: linear-gradient(white, green);
+    animation-name: prueba;
+    animation-iteration-count: 6;
+    animation-duration: 20s;
+}
+
+    @keyframes prueba {
+        from{
+            transform:translate(-100px);
+            opacity: 0;
+        }
+        to{
+            transform:translate(0px);
+            opacity: 3;
+        }
+    }    
+
+.classdos {
+    font-family: Karla-Medium;
+    font-style: italic;
+    color: rgb(10, 17, 13);
+    position: relative;
+    border-style:inset;
+    border-color: rgb(64, 70, 62);
+    background-color: powderblue;
+    bottom:200px;
+    left: 600px;
+    border-style:inset;
+    border-color: rgb(64, 70, 62);
+    background-color: powderblue;
+    width: 300px;
+    height: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    text-align: center;
+    
+}
+.infoDescripcionDos {
+    font-family: Karla-Medium;
+    font-style:italic;
+    color: rgb(10, 17, 13);
+    position: relative;
+    bottom:300px;
+    left: 840px;
+    border-style:inset;
+    border-color: rgb(64, 70, 62);
+    background-color: powderblue;
+    width: 300px;
+    height: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+.negrita {
+    font-weight: bold ;
+}
+footer {
+    color:rgb(156, 148, 156);
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    background-color: rgb(0, 0, 0);
+    font-family:"Karla-Medium";
+    grid-area: pie;
+}
+
+.imagen-nutri{
+    width:"560"; height:"315";
+    position: relative;
+    left: 280px;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+.recetasLink{
+    display: block;
+    background-color:rgb(68, 95, 27);
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    font-family: "Karla-Medium";
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.recetasTitulo {
+    display: block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    font-family: "Karla-Medium";
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    animation-name: titulodereceta;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+}
+@keyframes titulodereceta {
+     0% { font-size: 10px; }
+     50% { font-size: 30px;}
+     50% {font-size: 20px; }
+     100% { font-size:40px; }
+}
+
+.tituloInbody {
+    font-family: Karla-Medium;
+    font-style: italic;
+    color: rgb(187, 197, 192);
+    position: relative;
+    border-style:inset;
+    border-color: rgb(64, 70, 62);
+    bottom:250px;
+    left: 600px;
+    border-style:inset;
+    border-color: rgb(144, 156, 141);
+    background-color: rgb(18, 160, 179);
+    width: 300px;
+    height: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    text-align: center;
+    background-image:linear-gradient(70deg, black,red);
+}
+
+form {
+    margin: 0 auto;
+    font-family: "Karla-Medium";
+    font-weight: bold;
+    width: 300px;
+}
+
+input, textarea {
+    padding: 5px; 
+    border-radius: 5px;
+}
+
+label {
+    display: block; 
+    padding: 5px; 
+} 
+
+
+/* Comenzamos con Flex */
+.padre-flex {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.RecetasConFlex {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: stretch;
+    align-content: center;
+    justify-content: center;
+}
+.recetasLink {
+    display:flex;
+    flex-direction:column-reverse;
+    align-items: baseline;
+    background-color:rgb(68, 95, 27);
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    font-family: "Karla-Medium";
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    background-image: linear-gradient(green , white);
+}
+.formContacto {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+/* Comenzamos con Grid */
+/* .body {
+    display: grid;
+    grid-template-columns: 100%;
+} */
+
+header {
+    grid-area: cabeza;   
+}
+div {
+    grid-area:div;
+}
+
+/* GRADIENTES */
