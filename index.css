@@ -276,7 +276,6 @@ a {
     text-align: center;
     background-image:linear-gradient(70deg, black,red);
 }
-
 form {
     margin: 0 auto;
     font-family: "Karla-Medium";
@@ -327,12 +326,14 @@ label {
     text-decoration: none;
     background-image: linear-gradient(green , white);
 }
+/*
 .formContacto {
     display: flex;
     flex-direction: row;
 
 
 }
+*/
 
 /* Comenzamos con Grid */
 /* .body {
@@ -347,4 +348,14 @@ div {
     grid-area:div;
 }
 
-/* GRADIENTES */
+.consulta {
+    
+    border-style:inset;
+}
+.form-control{
+    border-style: inset;
+
+}
+.navbar navbar-expand-lg navbar-succes bg {
+    font-family: "Karla-Bold"; 
+}

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <title>Contacto</title>
 </head>
@@ -30,20 +31,31 @@
             <label for="nombre_apellido">Nombre y apellido</label>
             <input type="text" placeholder="Escriba su nombre" name="nombre_apellido" >
             <br> <br>
-            <label for="celular">Celular</label> 
-            <input type="number" placeholder="Escriba su celular" name="celular" >
-            <br> <br>
+            <!--label for="celular">Celular</label> 
+            <input type="number" placeholder="Escriba su celular" name="celular" -->
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
             <label for="cobertura">Cobertura</label>
-            <select name="cobertura">
-                <option value="">Seleccione una opción</option>
-                <option value="O.S">Obra social</option>
-                <option value="Prepaga">Cobertura Privada</option>
-                <option value="Paga">Paciente particular</option>
-            </select>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Seleccione una opción</option>
+                <option value="1">Particular</option>
+                <option value="2">Prepaga</option>
+                <option value="3">Obra social</option>
+                </select>
+        
             <br> <br>
-
             <label for= "consulta">Consulta</label>
-            <textarea name= "consulta" placeholder="Escriba su consulta. No olvide incluir su disponibilidad horaria" cols="30" rows="10"></textarea>
+            <textarea name= "consulta" placeholder="Escriba su consulta. No olvide incluir su disponibilidad horaria" 
+            cols="30" rows="10"></textarea>
+            <br> <br>
+            <div class="mb-3">
+                <label for="formFile" class="form-label">Si lo desea adjunte su análisis</label>
+                <input class="form-control" type="file" id="formFile">
+              </div>
+            <br>  
+            <button type="button" class="btn btn-success">Enviar</button>
         </form>
     </div>
     <br>
