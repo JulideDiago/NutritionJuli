@@ -356,6 +356,88 @@ div {
     border-style: inset;
 
 }
-.navbar navbar-expand-lg navbar-succes bg {
-    font-family: "Karla-Bold"; 
+/*media queries*/ 
+@media (max-width:480px) {
+.Title {
+    background-color: black;
+    color:aliceblue;
+    font-family: "Karla-Bold";
+    src: url(./assets/Fonts/Karla-Medium.ttf);
+    top:30px;
+    left:300px;
+}
+.infoDescripcionDos {
+    background-color: black;
+    color:aliceblue;
+    font-family:"Karla-Bold";
+    src: url(./assets/Fonts/Karla-Medium.ttf);
+    top:30px;
+    left:300px;
+    
+} 
+
+.footer {
+    left: 300px;
+    top:900px;
+    width: 480px;
+    
+
+}
+.classdos {
+    background-color: #d7f3e2;
+    color:rgb(40, 119, 40);
+    font-family:"Karla-Bold";
+    src: url(./assets/Fonts/Karla-Medium.ttf);
+    top: 4px;
+    left:270px;
+}
+.infoDescripcion {
+    color:purple;
+    font-family:"Karla-Bold";
+    src: url(./assets/Fonts/Karla-Medium.ttf);
+    top:3px;
+    left: 270px;
+}
+
+}
+@media (min-width:481px) and (max-width:1024px) {
+    .Title {
+        background-color: #a71d31;
+        color:azure;
+        font-family: "Karla-Bold";
+        src: url(./assets/Fonts/Karla-Medium.ttf);
+    }
+    .infoDescripcionDos {
+        background-color: #f2fcf0;
+        color:aquamarine;
+        font-family:"Karla-Bold";
+        src: url(./assets/Fonts/Karla-Medium.ttf);
+
+    }
+    .classdos {
+        background-color: #bb6767;
+        color:rgb(17, 34, 15);
+        font-family:"Karla-Bold";
+        src: url(./assets/Fonts/Karla-Medium.ttf);
+    }
+    .infoDescripcion {
+        color:rgb(90, 87, 90);
+        font-family:"Karla-Bold";
+        src: url(./assets/Fonts/Karla-Medium.ttf);
+    }
+
+}
+@media (min-width:1025px) {
+    .Title {
+    color:#000000;
+    font-family: "Karla-Bold";
+    src: url(./assets/Fonts/Karla-Medium.ttf);
+    background-color:powderblue;
+    }
+    .infoDescripcionDos{
+    color: rgb(10, 17, 13);
+    background-color: powderblue;
+    font-family: Karla-Medium;
+    src: url(./assets/Fonts/Karla-Medium.ttf);
+} 
 }
