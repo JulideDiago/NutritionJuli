@@ -1,0 +1,160 @@
+/*comentario*/
+@font-face {
+  font-family: "Karla-Bold";
+  src: url(./assets/Fonts/Karla-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Karla-Medium";
+  src: url(./assets/Fonts/Karla-Medium.ttf);
+}
+
+/*margenes*/
+.body {
+  margin: auto;
+}
+
+header #logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+header h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+header .redSocial {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+header .menu .padre-flex .menuLink {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.form {
+  margin: 0 auto;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.body {
+  background-image: url("../assets/fondo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "Karla-Medium";
+}
+
+header #logo {
+  position: relative;
+  left: 0px;
+  right: 100px;
+  top: 40px;
+  grid-area: cabeza;
+}
+
+header h1 {
+  color: black;
+  font-family: "Karla-Bold", sans-serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../assets/fruits.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  position: relative;
+  top: -50px;
+  left: 80px;
+  font-size: 50px;
+  width: 320px;
+  border-style: solid;
+}
+
+header .redSocial {
+  display: inline-block;
+  position: relative;
+  top: -100px;
+  left: 1200px;
+}
+
+header .menu {
+  position: relative;
+  bottom: 45px;
+  left: -20px;
+  text-align: center;
+  list-style-type: none;
+}
+
+header .menu a {
+  color: orange;
+  text-decoration: none;
+}
+
+.padre-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menuLink {
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: "Karla-Medium";
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+  -webkit-transition: all 3s;
+  transition: all 3s;
+}
+
+.menuLink:hover {
+  font-size: 30px;
+  background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+}
+
+.form {
+  font-family: "Karla-Medium";
+  font-weight: bold;
+  width: 300px;
+  grid-area: div;
+}
+
+.form .form-control {
+  border-style: inset;
+}
+/*# sourceMappingURL=contacto.css.map */
