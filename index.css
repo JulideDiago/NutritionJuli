@@ -23,7 +23,7 @@ html{
     /* margin:auto;
   */
 }
-    h1 {
+h1 {
     color:rgb(0, 0, 0);
     font-family: "Karla-Bold", sans-serif;
     align-items: center;
@@ -106,17 +106,9 @@ nav {
     font-style:italic;
     color: rgb(10, 17, 13);
     position: relative;
-    bottom:200px;
-    left: 600px;
     border-style:inset;
     border-color: rgb(64, 70, 62);
     background-color: powderblue;
-    width: 300px;
-    height: 50%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px; 
     text-align: center;
     background-image: linear-gradient(white, green);
     animation-name: prueba;
@@ -162,17 +154,10 @@ nav {
     font-style:italic;
     color: rgb(10, 17, 13);
     position: relative;
-    bottom:300px;
-    left: 840px;
     border-style:inset;
     border-color: rgb(64, 70, 62);
     background-color: powderblue;
     width: 300px;
-    height: 50%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px; 
 }
 .negrita {
     font-weight: bold ;
@@ -301,14 +286,6 @@ label {
     background-image: linear-gradient(green , white);
 }
 
-.formulario {
-    margin-left: 50px;
-}
-.tituloform {
-    margin-left: 50px;
-    margin-top: 10px;
-}
-
 header {
     grid-area: cabeza;   
 }
@@ -340,27 +317,16 @@ div {
     
 } 
 
-.footer {
-    left: 300px;
-    top:900px;
-    width: 480px;
-    
-
-}
 .classdos {
     background-color: #d7f3e2;
     color:rgb(40, 119, 40);
     font-family:"Karla-Bold";
     src: url(./assets/Fonts/Karla-Medium.ttf);
-    top: 4px;
-    left:270px;
 }
 .infoDescripcion {
     color:purple;
     font-family:"Karla-Bold";
     src: url(./assets/Fonts/Karla-Medium.ttf);
-    top:3px;
-    left: 270px;
 }
 
 }
