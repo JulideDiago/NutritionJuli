@@ -6,36 +6,18 @@
     font-family: "Karla-Medium";
     src: url(./assets/Fonts/Karla-Medium.ttf);
 }
-html{
+html {
     min-height: 100%;
     position: relative;
-}
-*{
-    margin: 0 auto;
-    padding: 0;
 }
 .body {
     background-image: url("./assets/fondo.png");
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
-    margin:auto;
-    font-family: "Karina-Medium";
-    /* grid
-    display: grid;
-    grid-template-columns: 100%; */
+    font-family: "Karla-Medium";
 }
-#logo {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    position: relative;
-    left: 0px;
-    right: 100px;
-    top: 40px;
-}
-    h1 {
+h1 {
     color:rgb(0, 0, 0);
     font-family: "Karla-Bold", sans-serif;
     align-items: center;
@@ -55,54 +37,18 @@ html{
     width: 320px;
     border-style:solid;
 }
-.redSocial{
-    display: inline-block;
-    position: relative;
-    top:-100px;
-    left: 1200px;
-    margin-top: 5px;
-    margin-bottom:5px;
-    margin-left: 5px;
-    margin-right: 5px; 
-}
-.menu {
-    position: relative;
-    bottom: 45px;
-    left: -20px;
-    text-align:center;
-    list-style-type: none;
-}
-.menuLink {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-top: 10px;
-    margin-bottom:10px;
-    margin-left: 10px;
-    margin-right: 10px; 
-    font-family: "Karla-Medium";
-    font-size: 20px;
+
+nav {
     font-weight: bold;
-    text-decoration: none;
-    background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
-    transition: all 3s;
-    
 }
-.menuLink:hover{
-    font-size: 30px;
-    background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+.navbar-text {
+    margin-left: 30px;
 }
 
-/*li:hover {
-    background-color:rgb(25, 29, 22) */
-.menu a {
-    color: orange;
-    text-decoration: none;
+#navbar{
+    background-color: #e3f2fd;
 }
-.video {
-    width:"560"; height:"315";
-    position: relative;
-    left: 280px;
-}
+
 .Title {
     color:#000000;
     font-family: "Karla-Bold";
@@ -125,19 +71,11 @@ html{
     font-style:italic;
     color: rgb(10, 17, 13);
     position: relative;
-    bottom:200px;
-    left: 600px;
     border-style:inset;
     border-color: rgb(64, 70, 62);
     background-color: powderblue;
-    width: 300px;
-    height: 50%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px; 
     text-align: center;
-    background-image: linear-gradient(white, green);
+    background-image: linear-gradient(white, powderblue);
     animation-name: prueba;
     animation-iteration-count: 6;
     animation-duration: 20s;
@@ -145,7 +83,7 @@ html{
 
     @keyframes prueba {
         from{
-            transform:translate(-100px);
+            transform:translate(-10px);
             opacity: 0;
         }
         to{
@@ -181,17 +119,10 @@ html{
     font-style:italic;
     color: rgb(10, 17, 13);
     position: relative;
-    bottom:300px;
-    left: 840px;
     border-style:inset;
     border-color: rgb(64, 70, 62);
     background-color: powderblue;
     width: 300px;
-    height: 50%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px; 
 }
 .negrita {
     font-weight: bold ;
@@ -211,6 +142,7 @@ footer {
     width:"560"; height:"315";
     position: relative;
     left: 280px;
+    max-width: 100%;
 }
 
 a {
@@ -276,13 +208,6 @@ a {
     text-align: center;
     background-image:linear-gradient(70deg, black,red);
 }
-form {
-    margin: 0 auto;
-    font-family: "Karla-Medium";
-    font-weight: bold;
-    width: 300px;
-}
-
 input, textarea {
     padding: 5px; 
     border-radius: 5px;
@@ -326,20 +251,6 @@ label {
     text-decoration: none;
     background-image: linear-gradient(green , white);
 }
-/*
-.formContacto {
-    display: flex;
-    flex-direction: row;
-
-
-}
-*/
-
-/* Comenzamos con Grid */
-/* .body {
-    display: grid;
-    grid-template-columns: 100%;
-} */
 
 header {
     grid-area: cabeza;   
@@ -349,67 +260,83 @@ div {
 }
 
 .consulta {
-    
     border-style:inset;
 }
-.form-control{
-    border-style: inset;
 
-}
 /*media queries*/ 
 @media (max-width:480px) {
-.Title {
-    background-color: black;
-    color:aliceblue;
-    font-family: "Karla-Bold";
-    src: url(./assets/Fonts/Karla-Medium.ttf);
-    top:30px;
-    left:300px;
-}
-.infoDescripcionDos {
-    background-color: black;
-    color:aliceblue;
-    font-family:"Karla-Bold";
-    src: url(./assets/Fonts/Karla-Medium.ttf);
-    top:30px;
-    left:300px;
-    
-} 
+    .Title {
+        background-color: black;
+        color:rgb(10, 110, 27);
+        font-family: "Karla-Bold";
+        src: url(./assets/Fonts/Karla-Medium.ttf);
+        top: 5px;
+        font-size: 30px;
+        margin-top: 10px;
+        width: 220px;
+        left: 10px;
+    }
+    .infoDescripcionDos {
+        background-color: black;
+        color:aliceblue;
+        font-family:"Karla-Bold";
+        font-size: 17px;
+        src: url(./assets/Fonts/Karla-Medium.ttf);
+        top:30px;
+        width: 200px;
+        left: 10px;
+    } 
 
-.footer {
-    left: 300px;
-    top:900px;
-    width: 480px;
-    
-
-}
-.classdos {
-    background-color: #d7f3e2;
-    color:rgb(40, 119, 40);
-    font-family:"Karla-Bold";
-    src: url(./assets/Fonts/Karla-Medium.ttf);
-    top: 4px;
-    left:270px;
-}
-.infoDescripcion {
-    color:purple;
-    font-family:"Karla-Bold";
-    src: url(./assets/Fonts/Karla-Medium.ttf);
-    top:3px;
-    left: 270px;
-}
-
+    .classdos {
+        background-color: #d7f3e2;
+        color:rgb(40, 119, 40);
+        font-family:"Karla-Bold";
+        src: url(./assets/Fonts/Karla-Medium.ttf);
+        top: 30px;
+        font-size: 25px;
+        max-width: 100%;
+    }
+    .infoDescripcion {
+        color:purple;
+        font-family:"Karla-Bold";
+        src: url(./assets/Fonts/Karla-Medium.ttf);
+        margin-top: 40px;
+        font-size: 15px;
+        max-width: 100%;
+    }
+    .video {
+        width: 250px;
+        height: 250px;
+        position:relative;
+        margin-top: 10px;
+    }
+    .imagen-nutri {
+        width: 100%;
+        height: 200px;
+        left: 5px;
+        top: 30px;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
 }
 @media (min-width:481px) and (max-width:1024px) {
     .Title {
-        background-color: #a71d31;
+        width: 150px;
+        left: 340px;
+        top: -250px;
+        font-size: 20px;
+        background-color: #000000;
         color:azure;
         font-family: "Karla-Bold";
         src: url(./assets/Fonts/Karla-Medium.ttf);
     }
     .infoDescripcionDos {
-        background-color: #f2fcf0;
-        color:aquamarine;
+        background-color: #10220c;
+        font-size: 20px;
+        top: -250px;
+        left: 340px;
+        width: 150px;
+        color:azure;
         font-family:"Karla-Bold";
         src: url(./assets/Fonts/Karla-Medium.ttf);
 
@@ -419,25 +346,96 @@ div {
         color:rgb(17, 34, 15);
         font-family:"Karla-Bold";
         src: url(./assets/Fonts/Karla-Medium.ttf);
+        top: 15px;
+        left: -5px;
+        font-size: 30px;
+        margin-top: 15px;
+        width: 100%;
     }
     .infoDescripcion {
         color:rgb(90, 87, 90);
         font-family:"Karla-Bold";
         src: url(./assets/Fonts/Karla-Medium.ttf);
+        top: 30px;
+        left: 5px;
+        width: 100%;
+        font-size:20px;
+    }
+    .video {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top:20px;
+    }
+    .imagen-nutri {
+        top: 20px;
+        left: 5px;
+        width: 100%;
+        height: 400px;
+        max-width: 100%;
     }
 
 }
 @media (min-width:1025px) {
     .Title {
-    color:#000000;
-    font-family: "Karla-Bold";
-    src: url(./assets/Fonts/Karla-Medium.ttf);
-    background-color:powderblue;
+        color:#000000;
+        font-family: "Karla-Bold";
+        font-size: 30px;
+        left: 450px;
+        width: 400px;
+        top: -350px;
+        src: url(./assets/Fonts/Karla-Medium.ttf);
+        background-color:powderblue;
     }
     .infoDescripcionDos{
-    color: rgb(10, 17, 13);
-    background-color: powderblue;
-    font-family: Karla-Medium;
-    src: url(./assets/Fonts/Karla-Medium.ttf);
-} 
+        color: rgb(10, 17, 13);
+        background-color: powderblue;
+        width: 400px;
+        left: 450px;
+        font-size: 20px;
+        top: -350px;
+        font-family: "Karla-Medium";
+        src: url(./assets/Fonts/Karla-Medium.ttf);
+    } 
+    .video {
+        width: 400px;
+        height:400px;
+        top: 20px;
+        position:relative;
+    }
+    .imagen-nutri {
+        width: 30%;
+        height: 30%;
+        top: 10px;
+        left: 20px;
+        max-width: 100%;
+    }
+    .classdos {
+        src: url(./assets/Fonts/Karla-Medium.ttf);
+        font-size: 25px;
+        width: 50%;
+        font-family: "Karla-Medium";
+        font-style: italic;
+        color: rgb(10, 17, 13);
+        position: relative;
+        border-style:inset;
+        border-color: rgb(64, 70, 62);
+        background-color: powderblue;
+    }
+    .infoDescripcion {
+        font-family:"Karla-Bold";
+        src: url(./assets/Fonts/Karla-Medium.ttf);
+        top: -200px;
+        left: 650px;
+        width: 500px;
+        font-size: 15px;
+        font-family: "Karla-Medium";
+        font-style:italic;
+        color: rgb(10, 17, 13);
+        position: relative;
+        border-style:inset;
+        border-color: rgb(64, 70, 62);
+        background-color: powderblue;
+        text-align: center;
+    }
 }
