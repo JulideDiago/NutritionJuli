@@ -394,7 +394,7 @@ div {
         left: 450px;
         font-size: 20px;
         top: -350px;
-        font-family: Karla-Medium;
+        font-family: "Karla-Medium";
         src: url(./assets/Fonts/Karla-Medium.ttf);
     } 
     .video {
@@ -414,7 +414,7 @@ div {
         src: url(./assets/Fonts/Karla-Medium.ttf);
         font-size: 25px;
         width: 50%;
-        font-family: Karla-Medium;
+        font-family: "Karla-Medium";
         font-style: italic;
         color: rgb(10, 17, 13);
         position: relative;
@@ -429,7 +429,7 @@ div {
         left: 650px;
         width: 500px;
         font-size: 15px;
-        font-family: Karla-Medium;
+        font-family: "Karla-Medium";
         font-style:italic;
         color: rgb(10, 17, 13);
         position: relative;
