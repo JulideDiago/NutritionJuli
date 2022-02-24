@@ -66,7 +66,7 @@ nav {
     text-decoration: underline;
 
 }
-.infoDescripcion  {
+.infoDescripcion , .infoDescripcionInbody {
     font-family: Karla-Medium;
     font-style:italic;
     color: rgb(10, 17, 13);
@@ -150,7 +150,7 @@ a {
     text-decoration: none;
 }
 
-.recetasLink{
+/* .recetasLink1 .recetasLink2 .recetasLink3{
     display: block;
     background-color:rgb(68, 95, 27);
     padding: 10px 20px;
@@ -163,7 +163,7 @@ a {
     font-weight: bold;
     text-decoration: none;
 
-}
+} */
 .recetasTitulo {
     display: block;
     padding: 10px 20px;
@@ -235,7 +235,7 @@ label {
     align-content: center;
     justify-content: center;
 }
-.recetasLink {
+/* .recetasLink1 .recetasLink2 .recetasLink3 {
     display:flex;
     flex-direction:column-reverse;
     align-items: baseline;
@@ -250,7 +250,7 @@ label {
     font-weight: bold;
     text-decoration: none;
     background-image: linear-gradient(green , white);
-}
+} */
 
 header {
     grid-area: cabeza;   
@@ -292,17 +292,18 @@ div {
         color:rgb(40, 119, 40);
         font-family:"Karla-Bold";
         src: url(./assets/Fonts/Karla-Medium.ttf);
-        top: 30px;
-        font-size: 25px;
-        max-width: 100%;
+        top: 20px;
+        font-size: 20px;
+        max-width: 80%;
+        left:-10px;
     }
     .infoDescripcion {
         color:purple;
         font-family:"Karla-Bold";
         src: url(./assets/Fonts/Karla-Medium.ttf);
-        margin-top: 40px;
+        top: 20px;
         font-size: 15px;
-        max-width: 100%;
+        max-width: 80%;
     }
     .video {
         width: 250px;
@@ -311,13 +312,46 @@ div {
         margin-top: 10px;
     }
     .imagen-nutri {
-        width: 100%;
+        width: 60%;
         height: 200px;
-        left: 5px;
+        left: 1px;
         top: 30px;
         max-width: 100%;
         margin-bottom: 10px;
     }
+    
+    .infoDescripcionInbody {
+        color:purple;
+        font-family:"Karla-Bold";
+        src: url(./assets/Fonts/Karla-Medium.ttf);
+        top: 370px;
+        font-size: 15px;
+        max-width: 80%;
+        position: absolute;
+
+    }
+    .tituloInbody {
+    font-family: Karla-Medium;
+    font-style: italic;
+    color: rgb(187, 197, 192);
+    position: relative;
+    border-style:inset;
+    border-color: rgb(64, 70, 62);
+    bottom:250px;
+    border-style:inset;
+    border-color: rgb(144, 156, 141);
+    background-color: rgb(18, 160, 179);
+    width: 150px;
+    height: 50%;
+    margin-top: 300px;
+    margin-bottom: 10px;
+    left: 50px;
+    margin-right: 10px; 
+    text-align: center;
+    background-image:linear-gradient(70deg, black,red);
+    font-size: 25px;
+    }
+    
 }
 @media (min-width:481px) and (max-width:1024px) {
     .Title {
@@ -352,7 +386,7 @@ div {
         margin-top: 15px;
         width: 100%;
     }
-    .infoDescripcion {
+    .infoDescripcion , .infoDescripcionInbody {
         color:rgb(90, 87, 90);
         font-family:"Karla-Bold";
         src: url(./assets/Fonts/Karla-Medium.ttf);
@@ -422,7 +456,7 @@ div {
         border-color: rgb(64, 70, 62);
         background-color: powderblue;
     }
-    .infoDescripcion {
+    .infoDescripcion , .infoDescripcionInbody {
         font-family:"Karla-Bold";
         src: url(./assets/Fonts/Karla-Medium.ttf);
         top: -200px;
@@ -439,3 +473,4 @@ div {
         text-align: center;
     }
 }
+

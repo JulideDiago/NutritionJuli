@@ -1,0 +1,14 @@
+/*maps*/
+$recetas: (
+    1: rgb(30, 180, 97),
+    2: rgb(52, 155, 26),
+    3: rgb(5, 109, 11)
+) ;
+
+@each $clave, $valor in $recetas{
+    .recetasLink#{$clave} {
+        background-color: $valor;
+        border: $valor;
+        margin: 10px;
+    }
+}
