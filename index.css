@@ -198,8 +198,8 @@ div {
 /*media queries*/ 
 @media (max-width:480px) {
     .Title {
-        background-color: black;
-        color:rgb(10, 110, 27);
+        background-color: rgba(0, 0, 0, 0.9);
+        color:green;
         font-family: "Karla-Bold";
         top: 5px;
         font-size: 30px;
@@ -272,7 +272,7 @@ div {
 }
 @media (min-width:481px) and (max-width:1024px) {
     .Title {
-        background-color: #000000;
+        background-color:  rgba(0, 0, 0, 0.9);
         color:azure;
         top: 5px;
         font-size: 30px;
@@ -317,7 +317,7 @@ div {
         position: relative;
         top:20px;
     }
-     .imagen-inbody {
+    .imagen-inbody {
         top: 20px;
         left: 5px;
         width: 100%;
