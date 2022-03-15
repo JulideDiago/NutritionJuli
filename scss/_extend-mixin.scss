@@ -23,7 +23,7 @@
     margin-top: $margenalto;
     margin-bottom: $margenbajo;
 }
-h1, .classdos, .tituloInbody {
+h1, .tituloInbody {
     @include margenes (10px, 10px)
 }
 .Title {
