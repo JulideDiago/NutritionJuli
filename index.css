@@ -124,7 +124,7 @@ footer {
     grid-area: pie;
 }
 
-.imagen-nutri, .imagen-inbody{
+.imagen-inbody{
     width:"560"; height:"315";
     position: relative;
     left: 280px;
@@ -152,10 +152,10 @@ a {
     animation-delay: 1s;
 }
 @keyframes titulodereceta {
-     0% { font-size: 10px; }
-     50% { font-size: 30px;}
-     50% {font-size: 20px; }
-     100% { font-size:40px; }
+    0% { font-size: 10px; }
+    50% { font-size: 30px;}
+    50% {font-size: 20px; }
+    100% { font-size:40px; }
 }
 
 .tituloInbody {
@@ -183,12 +183,10 @@ input, textarea {
     padding: 5px; 
     border-radius: 5px;
 }
-
 label {
     display: block; 
     padding: 5px; 
 } 
-
 
 /* Comenzamos con Flex */
 .padre-flex {
@@ -245,7 +243,7 @@ div {
         position:relative;
         margin-top: 10px;
     }
-    .imagen-nutri, .imagen-inbody {
+    .imagen-inbody {
         width: 60%;
         height: 200px;
         left: 1px;
@@ -253,7 +251,6 @@ div {
         max-width: 100%;
         margin-bottom: 10px;
     }
-    
     .infoDescripcionInbody {
         color:purple;
         font-family:"Karla-Bold";
@@ -261,7 +258,6 @@ div {
         font-size: 15px;
         max-width: 80%;
         position: absolute;
-
     }
     .tituloInbody {
         font-family: Karla-Medium;
@@ -337,14 +333,13 @@ div {
         position: relative;
         top:20px;
     }
-    .imagen-nutri, .imagen-inbody {
+     .imagen-inbody {
         top: 20px;
         left: 5px;
         width: 100%;
         height: 400px;
         max-width: 100%;
     }
-
 }
 @media (min-width:1025px) {
     .Title {
@@ -372,15 +367,12 @@ div {
         top: 20px;
         position:relative;
     }
-    .imagen-nutri, .imagen-inbody {
+     .imagen-inbody {
         width: 30%;
         height: 30%;
         top: 10px;
         left: 20px;
         max-width: 100%;
-    }
-    .imagen-nutri {
-        width: 40%;
     }
     .infoDescripcionInbody{
         bottom: 200px;
