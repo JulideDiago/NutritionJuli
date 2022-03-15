@@ -24,18 +24,15 @@ html {
 .container{
     height: auto;
 }
-
 nav {
     font-weight: bold;
 }
 .navbar-text {
     margin-left: 30px;
 }
-
 #navbar{
     background-color: #e3f2fd;
 }
-
 .Title {
     color:#000000;
     font-family: "Karla-Bold";
@@ -68,16 +65,16 @@ nav {
     animation-duration: 20s;
 }
 
-    @keyframes prueba {
-        from{
-            transform:translate(-10px);
-            opacity: 0;
-        }
-        to{
-            transform:translate(0px);
-            opacity: 3;
-        }
-    }    
+@keyframes prueba {
+    from{
+        transform:translate(-10px);
+        opacity: 0;
+    }
+    to{
+        transform:translate(0px);
+        opacity: 3;
+    }
+}    
 
 .infoDescripcionDos {
     font-family: Karla-Medium;
@@ -351,7 +348,7 @@ div {
         top: 20px;
         position:relative;
     }
-     .imagen-inbody {
+    .imagen-inbody {
         width: 30%;
         height: 30%;
         top: 10px;
@@ -389,7 +386,6 @@ div {
     color: #000000;
     font-style:normal;
 }
-
 .jumbotron{
     background-color: rgba(255,255,255,0.5);
 }
