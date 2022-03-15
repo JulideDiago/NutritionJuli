@@ -24,7 +24,7 @@ html {
 .container{
     height: auto;
 }
-h1 {
+/*h1 {
     color:rgb(0, 0, 0);
     font-family: "Karla-Bold", sans-serif;
     align-items: center;
@@ -43,7 +43,7 @@ h1 {
     font-size: 50px;
     width: 320px;
     border-style:solid;
-}
+} */
 
 nav {
     font-weight: bold;
@@ -396,4 +396,16 @@ div {
     margin-bottom: 30px;
     margin-left: 20px;
     color:black;
+}
+.display-4{
+    color:green;
+    font-style: italic;
+}
+.lead , .inbody {
+    color: #000000;
+    font-style:normal;
+}
+
+.jumbotron{
+    background-color: rgba(255,255,255,0.5);
 }
