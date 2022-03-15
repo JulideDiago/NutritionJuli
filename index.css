@@ -24,26 +24,6 @@ html {
 .container{
     height: auto;
 }
-/*h1 {
-    color:rgb(0, 0, 0);
-    font-family: "Karla-Bold", sans-serif;
-    align-items: center;
-    background-image: url("./assets/fruits.jpg");
-    background-repeat: no-repeat;
-    background-position:left;
-    background-size: cover;
-    object-fit: scale-down;
-    margin-top: 10px;
-    margin-bottom:10px;
-    margin-left: 10px;
-    margin-right: 10px; 
-    position: relative;
-    top: -50px;
-    left: 80px;
-    font-size: 50px;
-    width: 320px;
-    border-style:solid;
-} */
 
 nav {
     font-weight: bold;
