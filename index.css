@@ -321,6 +321,12 @@ div {
         height: 400px;
         max-width: 100%;
     }
+    .container{
+        margin-bottom: 10px;
+    }
+    .info{
+        margin-bottom: 100px;
+    }
 }
 @media (min-width:1025px) {
     .Title {
