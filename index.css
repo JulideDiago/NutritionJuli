@@ -263,7 +263,12 @@ div {
         padding-bottom: 20px;
         margin-bottom: 70px;
     }
-    
+    .container{
+        margin-bottom: 10px;
+    }
+    .info{
+        margin-bottom: 100px;
+    }
 }
 @media (min-width:481px) and (max-width:1024px) {
     .Title {
