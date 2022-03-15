@@ -215,7 +215,6 @@ div {
         top:30px;
         width: 200px;
         left: 10px;
-        height: auto;
     } 
     .video {
         width: 250px;
@@ -234,7 +233,7 @@ div {
     .infoDescripcionInbody {
         color:purple;
         font-family:"Karla-Bold";
-        top: 370px;
+        top: 700px;
         font-size: 15px;
         max-width: 80%;
         position: absolute;
